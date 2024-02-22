@@ -22,7 +22,7 @@ body, input, textarea{
 
 header {
     padding: 16px 0;
-    background-color: #182c61;
+    background-color: #c75bc1;
     color: #ecf0f1;
 }
 
@@ -43,7 +43,7 @@ header nav li a {
 
 .container {
     max-width: 1280px;
-    width: 100%;
+    width: 1366px;
     margin: 0 auto;
 }
 
@@ -78,7 +78,7 @@ section h2 {
 }
 
 section{
-    color: #182c61;
+    color: #c75bc1;
 }
 
 section p {
@@ -128,25 +128,57 @@ height: 180px;
 
 section h3{
     margin-bottom: 16px;
+    padding: 16px 0;
 }
 
 form button {
-    background-color: #182c61;
+    background-color: #c75bc1;
     color: whitesmoke;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: #3051ad;
+    background-color: #ee7fe8;
 }
 
 input:focus, textarea:focus {
-    outline-color:#132557
+    outline-color:#c75bc1
 }
 
 footer {
-    background-color: #182c61;
+    background-color: #c75bc1;
     color: whitesmoke;
     padding: 16px 0;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 500px;
+    border: 15px solid #c75bc1;
+    border-radius: 20px;
+}
+
+.articles article {
+    width: 30%;
+}
+
+.h2333 {
+    margin-top: 16px;
+    margin-left: 8px;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #c75bc1;
+    
+}
+
+.rosa {
+    height: 32px;
+    margin-right:16px;
 }
